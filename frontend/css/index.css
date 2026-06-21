@@ -1,0 +1,23 @@
+.navbar{
+    border: 3px;
+    border-style: solid;
+    padding: 10px;
+    border-color: black;
+    text-align: center;
+    background-color:rgb(25, 133, 25);
+}
+.navbar a{
+    color:bisque;
+    padding: 10px;              /* styling only the "a" part */
+    text-decoration: none;
+}
+
+.navbar a:hover{            /* hover used to show the diff btw selected and unselected*/
+    color:blue;
+    background-color:darkseagreen;
+
+}
+
+body{
+    margin: 0px; /* removes the top space */
+}
