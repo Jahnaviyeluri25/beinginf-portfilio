@@ -15,3 +15,6 @@
 -> this site will be accessed by the recruiter and for them a sort sections would be available so that they can sort the profiles based on any specific requirements 
 -> candidates can keep updating their portfolios same as their resumes
 -> the main difference this makes from orinary resumes is that it does not have to follow any specific formats of writing/representing the resumes/CVs but has all the sections a CV/resume contains.
+
+DEPLOYING 
+-> render acc -> select new -> production -> new web services -> change build command into npm install and start command into node server.js -> deploy -> project deplyoed and rum on render live 
