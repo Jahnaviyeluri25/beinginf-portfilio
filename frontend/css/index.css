@@ -4,20 +4,93 @@
     padding: 10px;
     border-color: black;
     text-align: center;
-    background-color:rgb(25, 133, 25);
+    background-color:rgb(41, 78, 201);
 }
 .navbar a{
-    color:bisque;
+    color:rgb(253, 253, 253);
     padding: 10px;              /* styling only the "a" part */
     text-decoration: none;
 }
 
 .navbar a:hover{            /* hover used to show the diff btw selected and unselected*/
-    color:blue;
-    background-color:darkseagreen;
+    color:rgb(8, 31, 77);
+    background-color:rgb(159, 204, 220);
 
 }
 
 body{
     margin: 0px; /* removes the top space */
+}
+.card{
+    border: 3px solid;
+    width: 420px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.card img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 2px solid;
+}
+
+.profile-details{
+    text-align: left;
+    margin: 20px;
+}
+
+.profile-details p{
+    margin: 10px 0;
+}
+
+.profile-details strong{
+    display: inline-block;
+    width: 150px;
+}
+.profile-details{
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .info-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.info-card{
+    width: 380px;
+    border: 3px solid ;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.info-card h2{
+    text-align: center;
+    color: #0b3d91;
+    margin-top: 0;
+    border-bottom: 2px solid #8db5ff;
+    padding-bottom: 10px;
+}
+
+.info-card p{
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.info-card ul{
+    padding-left: 20px;
+}
+
+.info-card li{
+    margin: 8px 0;
 }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Achievements</title>
+    <link rel="stylesheet" href="../css/ach.css">
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="/">Home</a>
+    <a href="edu.html">Education</a>
+    <a href="skills.html">Skills</a>
+    <a href="proj.html">Projects</a>
+    <a href="cert.html">Certificates</a>
+    <a href="ach.html">Achievements</a>
+</div>
+
+<section class="achievement-section">
+
+    <h1 class="page-title">Achievements</h1>
+
+    <div class="achievement-card" onclick="toggleSection('ach')">
+        <h2>Academic & Technical Achievements</h2>
+
+        <div class="achievement-content" id="ach">
+            <ul>
+                <li>First Prize - College Hackathon</li>
+                <li>Academic Excellence Award</li>
+                <li>Coding Competition Finalist</li>
+                <li>Best Project Award</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="achievement-card" onclick="toggleSection('extra')">
+        <h2>Extracurricular Activities</h2>
+
+        <div class="achievement-content" id="extra">
+            <ul>
+                <li>Member - AI & Machine Learning Club</li>
+                <li>Volunteer at College Technical Fest</li>
+                <li>Event Organizer for Coding Competition</li>
+                <li>Participated in Badminton Tournament</li>
+                <li>Attended Technical Workshops & Seminars</li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+<script>
+function toggleSection(id)
+{
+    var x = document.getElementById(id);
+
+    if(x.style.display=="block")
+    {
+        x.style.display="none";
+    }
+    else
+    {
+        x.style.display="block";
+    }
+}
+</script>
+
+</body>
+</html>

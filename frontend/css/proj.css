@@ -1,0 +1,89 @@
+.navbar{
+    border: 3px;
+    border-style: solid;
+    padding: 10px;
+    border-color: black;
+    text-align: center;
+    background-color:rgb(41, 78, 201);
+}
+.navbar a{
+    color:rgb(253, 253, 253);
+    padding: 10px;              /* styling only the "a" part */
+    text-decoration: none;
+}
+
+.navbar a:hover{            /* hover used to show the diff btw selected and unselected*/
+    color:rgb(8, 31, 77);
+    background-color:rgb(159, 204, 220);
+
+}
+
+body{
+    margin: 0px; /* removes the top space */
+}
+
+.page-title{
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 30px;
+}
+
+.project-section{
+
+    width:70%;
+    margin:30px auto;
+
+}
+
+.project{
+
+    margin-bottom:20px;
+
+}
+
+.project-title{
+
+    width:100%;
+    padding:15px;
+    font-size:18px;
+    text-align:left;
+    border:2px solid #2959c9;
+    background:white;
+    cursor:pointer;
+
+}
+
+.project-title:hover{
+
+    background:#dbe8ff;
+
+}
+
+.project-details{
+
+    display:none;
+    border:2px solid #2959c9;
+    border-top:none;
+    padding:20px;
+    background:white;
+
+}
+
+.project-details ul{
+
+    margin-left:20px;
+
+}
+
+.project-details a{
+
+    color:#2959c9;
+    text-decoration:none;
+
+}
+
+.project-details a:hover{
+
+    text-decoration:underline;
+
+}

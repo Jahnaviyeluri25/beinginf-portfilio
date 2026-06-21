@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../css/proj.css">
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="/">Home</a>
+    <a href="edu.html">Education</a>
+    <a href="skills.html">Skills</a>
+    <a href="proj.html">Projects</a>
+    <a href="cert.html">Certificates</a>
+    <a href="ach.html">Achievements</a>
+</div>
+
+<section class="project-section">
+
+    <h1 class="page-title">Projects</h1>
+
+    <div class="project">
+
+        <button class="project-title" onclick="showProject('p1')">
+
+            Portfolio Website
+            
+        </button>
+        <div class="project-details" id="p1">
+            <p><strong>Technology :</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Description :</strong></p>
+            <p>
+                Developed a responsive portfolio website containing
+                personal profile, education, skills, projects,
+                certificates and achievements.
+            </p>
+            <p><strong>Features :</strong></p>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Navigation Bar</li>
+                <li>Expandable Skills Section</li>
+                <li>Project Accordion</li>
+            </ul>
+            <p><strong>Duration :</strong> 2 Weeks</p>
+            <p>
+                <strong>GitHub :</strong>
+                <a href="https://github.com/yourusername"
+                target="_blank">
+
+                    View Project
+
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <button class="project-title" onclick="showProject('p2')">
+
+            Student Management System
+
+        </button>
+        <div class="project-details" id="p2">
+            <p><strong>Technology :</strong> Java, MySQL</p>
+            <p>
+                Student record management system with CRUD operations,
+                attendance and marks management.
+            </p>
+        </div>
+    </div>
+    <div class="project">
+        <button class="project-title" onclick="showProject('p3')">
+
+            Weather Forecast Application
+
+        </button>
+        <div class="project-details" id="p3">
+            <p><strong>Technology :</strong> HTML, CSS, JavaScript</p>
+            <p>
+                Displays live weather using an online weather API.
+            </p>
+        </div>
+    </div>
+</section>
+
+<script>
+
+function showProject(id)
+{
+
+    var details = document.getElementsByClassName("project-details");
+
+    for(var i=0;i<details.length;i++)
+    {
+        details[i].style.display="none";
+    }
+
+    document.getElementById(id).style.display="block";
+
+}
+
+</script>
+
+</body>
+</html>
